@@ -1,0 +1,165 @@
+Used Car Price Prediction - Training Report
+==================================================
+
+Training Date: 2025-08-03 15:56:09
+Dataset Size: 5000
+Features Used: 12
+
+Model Performance Comparison:
+------------------------------
+Linear Regression:
+  MAE:  0.4425
+  RMSE: 0.5740
+  R²:   0.6108
+
+Random Forest:
+  MAE:  0.3407
+  RMSE: 0.4661
+  R²:   0.7433
+
+XGBoost:
+  MAE:  0.2221
+  RMSE: 0.3124
+  R²:   0.8847
+
+Best Model: XGBoost
+Best R² Score: 0.8847
+
+Features:
+ 1. year
+ 2. km_driven
+ 3. car_age
+ 4. km_per_year
+ 5. is_luxury_brand
+ 6. high_mileage
+ 7. brand_encoded
+ 8. model_encoded
+ 9. fuel_type_encoded
+10. transmission_encoded
+11. number_of_owners_encoded
+12. location_encoded
+
+Category Mappings:
+
+brand:
+  0: Chevrolet
+  1: Ford
+  2: Honda
+  3: Hyundai
+  4: Mahindra
+  5: Maruti Suzuki
+  6: Nissan
+  7: Renault
+  8: Tata
+  9: Toyota
+
+model:
+  0: Accord
+  1: Alto
+  2: Altroz
+  3: Amaze
+  4: Aspire
+  5: Aveo
+  6: BR-V
+  7: Baleno
+  8: Beat
+  9: Bolero
+  10: CR-V
+  11: Camry
+  12: Captiva
+  13: Captur
+  14: Ciaz
+  15: City
+  16: Civic
+  17: Corolla
+  18: Creta
+  19: Cruze
+  20: Duster
+  21: Dzire
+  22: EcoSport
+  23: Elantra
+  24: Endeavour
+  25: Enjoy
+  26: Ertiga
+  27: Etios
+  28: Evalia
+  29: Fiesta
+  30: Figo
+  31: Fluence
+  32: Fortuner
+  33: Freestyle
+  34: GT-R
+  35: Glanza
+  36: Harrier
+  37: Hexa
+  38: Ikon
+  39: Innova
+  40: Jazz
+  41: KUV100
+  42: Kicks
+  43: Kwid
+  44: Lodgy
+  45: Magnite
+  46: Marazzo
+  47: Micra
+  48: Mustang
+  49: Nexon
+  50: Pulse
+  51: Punch
+  52: Safari
+  53: Santro
+  54: Scala
+  55: Scorpio
+  56: Spark
+  57: Sunny
+  58: Swift
+  59: Tavera
+  60: Terrano
+  61: Thar
+  62: Tiago
+  63: Tigor
+  64: Trailblazer
+  65: Triber
+  66: Tucson
+  67: Urban Cruiser
+  68: Venue
+  69: Verna
+  70: Vitara Brezza
+  71: WR-V
+  72: Wagon R
+  73: X-Trail
+  74: XUV300
+  75: XUV500
+  76: XUV700
+  77: Yaris
+  78: i10
+  79: i20
+
+fuel_type:
+  0: CNG
+  1: Diesel
+  2: Electric
+  3: LPG
+  4: Petrol
+
+transmission:
+  0: Automatic
+  1: Manual
+
+number_of_owners:
+  0: First
+  1: Fourth & Above
+  2: Second
+  3: Third
+
+location:
+  0: Ahmedabad
+  1: Bangalore
+  2: Chennai
+  3: Delhi
+  4: Hyderabad
+  5: Jaipur
+  6: Kolkata
+  7: Lucknow
+  8: Mumbai
+  9: Pune
